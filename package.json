@@ -1,0 +1,19 @@
+{
+  "name": "layout-designer-project-lvl1",
+  "version": "1.0.0",
+  "description": "First project in \"Layout Designer\" profession on Hexlet.",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VilerIT/layout-designer-project-lvl1.git"
+  },
+  "author": "VilerIT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VilerIT/layout-designer-project-lvl1/issues"
+  },
+  "homepage": "https://github.com/VilerIT/layout-designer-project-lvl1#readme"
+}
