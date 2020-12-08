@@ -62,7 +62,9 @@ body {
   line-height: 1.6em;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: "Neucha", cursive;
   line-height: 1.2em;
 }
@@ -166,12 +168,13 @@ section {
 .cards-section {
   flex-wrap: wrap;
   padding: 200px 0 100px;
+
   background: var(--dark-main);
 }
 
 .cards-container {
-  margin: -20px -15px;
   flex-wrap: wrap;
+  margin: -20px -15px;
 }
 
 .cards-section-heading {
@@ -185,18 +188,21 @@ section {
   padding: 24px;
 }
 
-.card-link, .card-link:visited, .card-link:active {
-  text-decoration: none;
-  color: var(--dark);
-}
-
 .card-link {
   background: var(--light);
   cursor: pointer;
 }
 
+.card-link,
+.card-link:visited,
+.card-link:active {
+  color: var(--dark);
+  text-decoration: none;
+}
+
 .card-link:hover {
   color: var(--white);
+
   background: var(--yellow);
 }
 
