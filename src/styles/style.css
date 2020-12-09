@@ -65,6 +65,10 @@
   color: var(--dark-transparent);
 }
 
+.c-brown {
+  color: var(--brown);
+}
+
 .shadow {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
@@ -105,6 +109,16 @@ section {
   padding: 100px 0;
 }
 
+.bg-light-section {
+  z-index: -2;
+  background-color: var(--light);
+}
+
+.bg-brown-section {
+  z-index: -2;
+  background-color: var(--brown);
+}
+
 .bg-light-section::before,
 .bg-brown-section::before {
   position: absolute;
@@ -117,20 +131,11 @@ section {
   height: 100%;
 
   background-image: url("../../images/background.png");
+  opacity: 10%;
   background-repeat: no-repeat;
   background-size: cover;
 
-  opacity: 10%;
-
   content: "";
-}
-
-.bg-light-section::before {
-  background-color: var(--light);
-}
-
-.bg-brown-section::before {
-  background-color: var(--brown);
 }
 
 .bg-light {
@@ -149,6 +154,8 @@ section {
 }
 
 .container {
+  display: flex;
+
   width: 100%;
   max-width: 1110px;
 }
