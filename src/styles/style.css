@@ -230,7 +230,7 @@ section {
   margin: -20px -15px;
 }
 
-.cards-section-heading {
+.cards-section-header {
   font-size: 52px;
 }
 
@@ -270,7 +270,7 @@ section {
   line-height: 1;
 }
 
-.info-heading {
+.info-header {
   position: relative;
   left: 8px;
 
