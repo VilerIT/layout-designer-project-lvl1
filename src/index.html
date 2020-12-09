@@ -25,50 +25,52 @@
                     <p>Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной потере продуктивности, багам и бесконечному разочарованию.</p>
                     <br>
                     <p>Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем сломать и цикл, а остатки нейтрализовать.</p>
-                    <a class="button p-relative top-40" href="#">ПОДРОБНЕЕ</a>
+                    <a class="button p-relative top-40" href="#video-section">ПОДРОБНЕЕ</a>
                 </div>
             </div>
         </section>
     </header>
     <main>
-        <section class="video-section d-flex p-relative z-index-1">
+        <section id="video-section" class="d-flex p-relative z-index-1">
             <h1 class="p-relative top-100">Что же это такое,<br><span class="c-yellow">когнитивные искажения?</span></h1>
             <div class="video-container d-flex">
                 <p class="video-label p-relative top-100">Что такое когнитивные искажения. Petrovna Channel</p>
                 <iframe class="shadow p-relative top-100" width="919" height="569" src="https://www.youtube.com/embed/jie9AizBqss" frameborder="0" allowfullscreen></iframe>
             </div>
         </section>
-        <section class="cards-section d-flex z-index-1">
+    
+        <section id="cards-section" class="d-flex z-index-1">
             <div class="container cards-container">
                 <h1 class="cards-section-heading c-white card"><span class="c-yellow">5 когнитивных искажений</span> о существовании которых стоит помнить</h1>
-                <a class="card card-link" href="#">
+                <a class="card card-link" href="#ikea-effect">
                     <h2 class="number">1</h2>
                     <h3 class="c-yellow">Эффект ИКЕА</h3>
                     <p>Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.</p>
                 </a>
-                <a class="card card-link" href="#">
+                <a class="card card-link" href="#early-optimization">
                     <h2 class="number">2</h2>
                     <h3 class="c-yellow">Преждевременная оптимизация</h3>
                     <p>Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</p>
                 </a>
-                <a class="card card-link" href="#">
+                <a class="card card-link" href="#newness-distortion">
                     <h2 class="number">3</h2>
                     <h3 class="c-yellow">Искажение новизны</h3>
                     <p>Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.</p>
                 </a>
-                <a class="card card-link" href="#">
+                <a class="card card-link" href="#hyperbolic-depreciation">
                     <h2 class="number">4</h2>
                     <h3 class="c-yellow">Гиперболическое обесценивание</h3>
                     <p>Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но доступную в будущем.</p>
                 </a>
-                <a class="card card-link" href="#">
+                <a class="card card-link" href="#planning-error">
                     <h2 class="number">5</h2>
                     <h3 class="c-yellow">Ошибка планирования</h3>
                     <p>Неправильно рассчитывать время необходимое для завершения задачи.</p>
                 </a>
             </div>
         </section>
-        <section class="bg-light-section d-flex p-relative z-index-1">
+    
+        <section id="ikea-effect" class="bg-light-section d-flex p-relative z-index-1">
             <div class="container p-relative">
                 <div>
                     <img class="shadow" src="../images/1.png" alt="IKEA effect image">
@@ -87,7 +89,8 @@
                 <p class="text m-left-30">Мы склонны переоценивать наши собственные решения и недооценивать решения других. Если вы когда-то работали в компании, которая использовала тупой внутренний инструмент вместо более удобного готового решения, вы понимаете, о чём я говорю.</p>
             </div>
         </section>
-        <section class="bg-brown-section d-flex p-relative c-white z-index-1">
+    
+        <section id="early-optimization" class="bg-brown-section d-flex p-relative c-white z-index-1">
             <div class="container p-relative">
                 <div>
                     <h3>Когнитивные искажения</h3>
@@ -106,7 +109,8 @@
                 <p class="text m-left-30">Отличный пример: писать максимально подтюненный и высокопроизводительный код для всего лишь экспериментального проекта.</p>
             </div>
         </section>
-        <section class="bg-light-section d-flex p-relative z-index-1">
+    
+        <section id="newness-distortion" class="bg-light-section d-flex p-relative z-index-1">
             <div class="container p-relative">
                 <div>
                     <img class="shadow" src="../images/3.png" alt="distortion of newness image">
@@ -125,7 +129,8 @@
                 <p class="text m-left-30">Вы замечаете, что пользуетесь теми же рабочими методиками раз за разом? Если да, возможно, вы смотрите на разные проблемы под одним и тем же углом.</p>
             </div>
         </section>
-        <section class="bg-brown-section d-flex p-relative c-white z-index-1">
+
+        <section id="hyperbolic-depreciation" class="bg-brown-section d-flex p-relative c-white z-index-1">
             <div class="container p-relative">
                 <div>
                     <h3>Когнитивные искажения</h3>
@@ -144,7 +149,8 @@
                 <p class="text m-left-30">Немедленная выгода от использования чего-то быстродоступного значительно смягчает боль, которую нужно перетерпеть, чтобы усвоить правильный синтаксис для перемещения на нужную строчку. Но как только вы поймёте как перемещаться быстрее, выгода в будущем намного выше. В итоге вы сохраните много времени.</p>
             </div>
         </section>
-        <section class="bg-light-section d-flex p-relative z-index-1">
+
+        <section id="planning-error" class="bg-light-section d-flex p-relative z-index-1">
             <div class="container p-relative">
                 <div>
                     <img class="shadow" src="../images/5.png" alt="planning error image">
