@@ -54,12 +54,8 @@
   margin-left: 30px;
 }
 
-.m-100-0-20 {
+.info-heading-margin {
   margin: 100px 0 20px;
-}
-
-.top-100 {
-  top: 100px;
 }
 
 .c-yellow {
@@ -94,6 +90,7 @@ body {
 h1,
 h2,
 h3 {
+  font-weight: normal;
   font-family: "Neucha", cursive;
   line-height: 1.2em;
 }
@@ -110,6 +107,10 @@ h3 {
   font-size: 34px;
 }
 
+.subtitle {
+  font-size: 24px;
+}
+
 section {
   display: flex;
   flex-direction: column;
@@ -120,24 +121,13 @@ section {
   padding: 100px 0;
 }
 
-.bg-dark-main {
-  background: var(--dark-main);
+.bg {
+  position: relative;
+
+  z-index: 1;
 }
 
-.bg-light-section {
-  z-index: -2;
-
-  background-color: var(--light);
-}
-
-.bg-brown-section {
-  z-index: -2;
-
-  background-color: var(--brown);
-}
-
-.bg-light-section::before,
-.bg-brown-section::before {
+.bg::before {
   position: absolute;
 
   z-index: -1;
@@ -156,6 +146,10 @@ section {
   content: "";
 }
 
+.bg-dark-main {
+  background: var(--dark-main);
+}
+
 .bg-light {
   background: var(--light);
 }
@@ -169,21 +163,17 @@ section {
   right: -285px;
 
   height: 525px;
+
+  z-index: -1;
 }
 
-.container {
+.container > div {
+  position: relative;
+
   display: flex;
 
   width: 100%;
   max-width: 1110px;
-}
-
-.z-index-0 {
-  z-index: 0;
-}
-
-.z-index-1 {
-  z-index: 1;
 }
 
 .text {
@@ -207,9 +197,15 @@ section {
 }
 
 #video-section {
-  padding: 100px 0 0;
+  padding: 0;
 
   text-align: center;
+}
+
+#video-section > * {
+  position: relative;
+
+  top: 100px;
 }
 
 .video-container {
@@ -218,6 +214,10 @@ section {
 
 .video-label {
   margin: 30px 0;
+}
+
+iframe {
+  border: none;
 }
 
 #cards-section {
@@ -230,7 +230,7 @@ section {
   margin: -20px -15px;
 }
 
-.cards-section-header {
+.cards-section-heading {
   font-size: 52px;
 }
 
@@ -270,13 +270,14 @@ section {
   line-height: 1;
 }
 
-.info-header {
+.info-heading {
   position: relative;
   left: 8px;
 
   margin: 4px 0;
 
   font-weight: bold;
+  font-size: 14px;
 }
 
 .mailing-box {
@@ -291,9 +292,9 @@ section {
 
   justify-content: center;
   width: 70px;
-  height: 50px;
+  height: 49px;
 
-  border: none;
+  border: 1px solid transparent;
 }
 
 .email-button::before {
@@ -304,12 +305,16 @@ section {
   display: flex;
 
   flex-direction: column;
+
+  font-size: 18px;
 }
 
 .email-input {
   width: 400px;
   height: 47px;
   padding: 0 0 0 15px;
+
+  border: 1px solid transparent;
 }
 
 .email-input::placeholder {
@@ -329,6 +334,12 @@ section {
 }
 
 .contact-info {
+  flex-direction: column;
+
   font-size: 14px;
   text-align: center;
+}
+
+#beginning {
+  padding-bottom: 155px;
 }
