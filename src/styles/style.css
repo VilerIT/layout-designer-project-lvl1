@@ -107,6 +107,10 @@ h3 {
   font-size: 34px;
 }
 
+#beginning {
+  padding-bottom: 155px;
+}
+
 .subtitle {
   font-size: 24px;
 }
@@ -162,22 +166,26 @@ section {
   top: -100px;
   right: -285px;
 
-  height: 525px;
-
   z-index: -1;
+
+  height: 525px;
 }
 
-.container > div {
-  position: relative;
-
-  display: flex;
-
+.container {
   width: 100%;
   max-width: 1110px;
 }
 
+.container-element {
+  position: relative;
+
+  display: flex;
+}
+
 .text {
-  width: 50%;
+  flex-shrink: 1;
+
+  width: 100%;
 }
 
 .button {
@@ -202,7 +210,7 @@ section {
   text-align: center;
 }
 
-#video-section > * {
+.video-section-element {
   position: relative;
 
   top: 100px;
@@ -227,6 +235,7 @@ iframe {
 
 .cards-container {
   flex-wrap: wrap;
+  width: 100%;
   margin: -20px -15px;
 }
 
@@ -314,13 +323,17 @@ iframe {
   height: 47px;
   padding: 0 0 0 15px;
 
+  font-size: 18px;
+
   border: 1px solid transparent;
 }
 
 .email-input::placeholder {
-  font-size: 18px;
-
   opacity: 20%;
+}
+
+.email-input-margin {
+  margin: 8px 0;
 }
 
 .agreement-text {
@@ -338,8 +351,4 @@ iframe {
 
   font-size: 14px;
   text-align: center;
-}
-
-#beginning {
-  padding-bottom: 155px;
 }
