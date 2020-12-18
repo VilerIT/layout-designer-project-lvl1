@@ -108,7 +108,7 @@ h3 {
 }
 
 #beginning {
-  padding-bottom: 138px;
+  padding-bottom: 131px;
 }
 
 .subtitle {
@@ -205,7 +205,7 @@ section {
 }
 
 #video-section {
-  padding: 0;
+  padding: 0 0 7px 0;
 
   text-align: center;
 }
@@ -351,4 +351,12 @@ iframe {
 
   font-size: 14px;
   text-align: center;
+}
+
+#footer {
+  padding-bottom: 71px;
+}
+
+#errors-in-planning {
+  padding-bottom: 87px;
 }
