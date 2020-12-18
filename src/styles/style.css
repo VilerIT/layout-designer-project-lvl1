@@ -108,7 +108,7 @@ h3 {
 }
 
 #beginning {
-  padding-bottom: 131px;
+  padding-bottom: 138px;
 }
 
 .subtitle {
@@ -122,7 +122,7 @@ section {
   align-items: center;
   justify-content: center;
   margin: 0;
-  padding: 100px 0;
+  padding: 100px 0 93px 0;
 }
 
 .bg {
