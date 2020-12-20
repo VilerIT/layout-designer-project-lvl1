@@ -356,3 +356,7 @@ iframe {
 #footer {
   padding-bottom: 71px;
 }
+
+img {
+  vertical-align: middle;
+}
