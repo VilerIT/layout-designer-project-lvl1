@@ -54,6 +54,10 @@
   margin-bottom: 60px;
 }
 
+.m-bottom-5 {
+  margin-bottom: 10px;
+}
+
 .m-left-30 {
   margin-left: 30px;
 }
@@ -112,6 +116,8 @@ h3 {
 }
 
 #beginning {
+  line-height: 26px;
+
   padding-bottom: 156px;
 }
 
