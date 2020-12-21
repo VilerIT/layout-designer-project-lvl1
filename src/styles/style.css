@@ -38,6 +38,10 @@
   top: 40px;
 }
 
+.m-bottom-200 {
+  margin-bottom: 200px;
+}
+
 .m-bottom-225 {
   margin-bottom: 225px;
 }
@@ -162,12 +166,14 @@ section {
   background: var(--brown);
 }
 
-.main-image {
-  top: -65px;
-  right: -320px;
+.main-image-container {
+  top: -50px;
+  right: -268px;
 
   z-index: -1;
+}
 
+.main-image {
   height: 525px;
 }
 
