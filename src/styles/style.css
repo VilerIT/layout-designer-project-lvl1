@@ -38,6 +38,10 @@
   top: 40px;
 }
 
+.m-bottom-200 {
+  margin-bottom: 200px;
+}
+
 .m-bottom-225 {
   margin-bottom: 225px;
 }
@@ -108,7 +112,11 @@ h3 {
 }
 
 #beginning {
-  padding-bottom: 131px;
+  padding-bottom: 156px;
+}
+
+#header-button {
+  padding: 16px 24px;
 }
 
 .subtitle {
