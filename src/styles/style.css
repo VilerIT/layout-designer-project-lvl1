@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+@import url("../../node_modules/bootstrap/scss/bootstrap.scss");
 
 * {
   margin: 0;
@@ -54,7 +55,11 @@
   margin-bottom: 60px;
 }
 
-.m-bottom-5 {
+.m-bottom-40 {
+  margin-bottom: 40px;
+}
+
+.m-bottom-10 {
   margin-bottom: 10px;
 }
 
@@ -204,6 +209,14 @@ section {
   width: 100%;
 }
 
+.text-container {
+  margin: 0 -15px;
+}
+
+.text-padding {
+  margin: 0 15px;
+}
+
 .button {
   padding: 12px 24px;
 
@@ -246,13 +259,17 @@ iframe {
 
 #cards-section {
   flex-wrap: wrap;
-  padding: 215px 0 114px;
+  padding: 211px 0 118px;
 }
 
 .cards-container {
   flex-wrap: wrap;
   width: 100%;
   margin: -20px -15px;
+}
+
+.card-heading {
+  margin-bottom: 16px;
 }
 
 .card {
@@ -290,7 +307,7 @@ iframe {
 }
 
 .number {
-  margin-bottom: 40px;
+  margin-bottom: 35px;
 
   font-size: 64px;
   line-height: 1;
