@@ -246,7 +246,7 @@ iframe {
 
 #cards-section {
   flex-wrap: wrap;
-  padding: 200px 0 100px;
+  padding: 230px 0 100px;
 }
 
 .cards-container {
@@ -255,14 +255,9 @@ iframe {
   margin: -20px -15px;
 }
 
-.cards-section-heading {
-  font-size: 52px;
-}
-
 .card {
-  flex: 1 0 0;
-  width: 33%;
-  margin: 20px 15px;
+  flex: 1 0 250px;
+  margin: 15px 15px;
   padding: 24px;
 }
 
@@ -286,6 +281,12 @@ iframe {
 
 .card-link:hover > h3 {
   color: var(--white);
+}
+
+.cards-section-heading {
+  width: 350px;
+  font-size: 52px;
+  padding: 0;
 }
 
 .number {
