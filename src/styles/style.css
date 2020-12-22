@@ -123,7 +123,7 @@ h3 {
 #beginning {
   line-height: 26px;
 
-  padding-bottom: 154px;
+  padding-bottom: 124px;
 }
 
 #header-button {
@@ -259,7 +259,7 @@ iframe {
 
 #cards-section {
   flex-wrap: wrap;
-  padding: 211px 0 118px;
+  padding: 242px 0 68px;
 }
 
 .cards-container {
