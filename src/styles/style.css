@@ -80,13 +80,15 @@
 .video {
   position: relative;
   top: 100px;
+
   margin-top: -100px;
 }
 
 body {
+  margin: 0;
+
   overflow-x: hidden;
 
-  margin: 0;
   color: var(--dark);
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
@@ -96,11 +98,11 @@ body {
 h1,
 h2,
 h3 {
+  margin: 0;
+
   font-weight: normal;
   font-family: "Neucha", cursive;
   line-height: 1.2em;
-
-  margin: 0;
 }
 
 h1 {
@@ -116,9 +118,10 @@ h3 {
 }
 
 .subtitle {
-  font-family: "Neucha", cursive;
-  font-size: 24px;
   margin: 0;
+
+  font-size: 24px;
+  font-family: "Neucha", cursive;
 }
 
 section {
@@ -167,17 +170,19 @@ section {
   right: -268px;
 
   z-index: -1;
+
   height: 525px;
 }
 
 .container {
+  box-sizing: border-box;
+
   width: 100%;
-  height: 100%;
   max-width: 1110px;
+  height: 100%;
 
   margin: 0 auto;
   padding: 100px 0;
-  box-sizing: border-box;
 }
 
 .col {
@@ -191,10 +196,11 @@ section {
 
 .card-col {
   flex: 0 0 33.333333%;
-  max-width: 33.333333%;
 
-  padding: 0 15px;
   box-sizing: border-box;
+
+  max-width: 33.333333%;
+  padding: 0 15px;
 }
 
 .row {
@@ -228,10 +234,6 @@ section {
   text-align: center;
 }
 
-.video-container {
-  flex-direction: column;
-}
-
 .video-label {
   margin: 30px 0;
 }
@@ -241,16 +243,17 @@ iframe {
 }
 
 .cards-section {
-  flex-wrap: wrap;
   padding: 100px 0 0 0;
 }
 
 .card-link {
+  display: block;
+
+  height: 290px;
+  padding: 24px;
+
   background: var(--light);
   cursor: pointer;
-  padding: 24px;
-  display: block;
-  height: 290px;
 }
 
 .card-link,
@@ -271,9 +274,7 @@ iframe {
 }
 
 .cards-section-heading {
-  height: 100%;
   font-size: 52px;
-  padding: 0;
 }
 
 .number {
@@ -286,15 +287,15 @@ iframe {
 .info-heading {
   padding: 5px 10px;
 
-  text-transform: uppercase;
   font-weight: bold;
   font-size: 14px;
+  text-transform: uppercase;
 }
 
 .mailing-box {
   align-items: center;
   justify-content: space-between;
-  padding: 38px 55px;
+  padding: 40px;
 }
 
 .email-button {
